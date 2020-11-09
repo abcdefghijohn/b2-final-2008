@@ -11,9 +11,9 @@ describe "As a visitor" do
       visit "/doctors/#{doc.id}"
 
       expect(page).to have_content(doc.name)
-      expect(page).to have_content(doc.speciality)
+      expect(page).to have_content(doc.specialty)
       expect(page).to have_content(doc.university)
-      expect(page).to have_content(doc.hospitals.name)
+      expect(page).to have_content(doc.hospital.name)
       expect(page).to have_content(sam.name)
       expect(page).to have_content(pam.name)
       expect(page).to have_content(cam.name)

@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-R.describe "As a visitor" do
+describe "As a visitor" do
   describe "When I visit a doctors show page" do
     it "I see the doctors name, specialty, university, hospital, and all their patients" do
       hospital = Hospital.create(name: "Paiser Al Dente")

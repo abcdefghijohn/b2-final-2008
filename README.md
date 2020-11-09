@@ -52,6 +52,7 @@ I see all of that doctor's information including:
  - university where they got their doctorate
 And I see the name of the hospital where this doctor works
 And I see the names of all of the patients this doctor has
+
 User Story 2, Hospital Show Page
 
 As a visitor
@@ -59,6 +60,7 @@ When I visit a hospital's show page
 I see the hospital's name
 And I see the number of doctors that work at this hospital
 And I see a unique list of universities that this hospital's doctors attended
+
 User Story 3, Remove a Patient from a Doctor
 ​
 As a visitor
